@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MLflow tracking (NO subir experimentos)
+mlruns/
+
+# Data pesada
+data/raw/
+*.zip
+
+# VS Code
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
